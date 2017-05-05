@@ -1,0 +1,124 @@
+body{
+	font-family: "helvetica neue";
+}
+.topnav a{
+	float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "helvetica neue";
+    background-color: #605D65;
+}
+.topnav a:hover{
+	background-color: #ddd;
+	color: white;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    width: 100%;
+    background-color: #605D65;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+	font-family: "sacramento";
+    font-size: 60px;
+    margin: 0;
+}
+.title a {
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+.imgquote
+    margin: 0 auto;
+}
+.head-container{
+    margin: 10px auto 0;
+}
+.imgclaire{
+	width: 200px;
+    filter: grayscale(100%);
+    border-radius: 30px;
+    float: left;
+    padding: 5px;
+    margin-left: 70px;
+}
+.quote{
+    width: 60%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+}
+.clearer{
+    clear: left;
+}
+.about-me{
+    margin-top: 50px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.about-me h2{
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    font-size: 2em;
+}
+.about-me p{
+    font-family: 'Helvetica neue', serif;
+}
+.imglocation img{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+.imglocation{
+    width: 400px;
+    height: 250px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+figure{
+    position: relative;
+    margin: 0 auto;
+}
+figcaption{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+figcaption span{
+    padding: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+}
+#main-footer{
+    float: right;
+    margin-right: 30px;
+    font-size: .5em;
+}
+

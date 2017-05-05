@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.col{
+    float:left;
+    margin: 0.5% 0 0.5% 1%;
+    width: 19.2%;
+}
+
+@media only screen and (min-width: 1320px) {
+    .col:first-child {
+        margin-left: 0;
+    }
+    .col:nth-child(5n+1){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1054px, max-width: 1319px) {
+    .col:nth-child(4n+1){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 780px, max-width: 1053px) {
+    .col:nth-child(3n+1){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .col:nth-child(2n+1){
+        margin-left: 0;
+    }
+}
