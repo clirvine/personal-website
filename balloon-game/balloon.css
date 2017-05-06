@@ -1,5 +1,5 @@
 html {
-	cursor: url(crosshair.png) 64, 64, auto;
+	cursor: url(crosshair-small.png) 64, 64, crosshair;
 }
 
 body {
@@ -8,15 +8,65 @@ body {
 	background-size: cover;
 }
 
+.scoreboard {
+	font-size: 40px;
+	font-family: "Helvetica Neue";
+	position: absolute;
+	bottom:	20px;
+	width:	100%;
+	text-align: center;
+}
+
+.scoreboard .replay, 
+.scoreboard .label,
+.scoreboard .counter {
+	visibility:	hidden;
+}
+
+.scoreboard .ready {
+	top: 50%;
+}
+
+.scoreboard.ready .replay,
+.scoreboard.ready .label,
+.scoreboard.ready .counter {
+	visibility: visible;
+}
+
+.scoreboard .replay {
+	width: 50%;
+	border: 1px solid #f33;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 35px;
+	font-family: "Helvetica Neue";
+	color: #fff;
+	text-decoration: none;
+	background: #fa0;
+	display: block;
+	margin: 0px auto;
+}
+
+.scoreboard.ready .badge {
+	width: 350px;
+	height:	150px;
+	padding: 15px;
+	margin: 0px auto;
+	border-radius: 15px;
+	border:	4px solid #fff;
+	background-color: rgba(37, 120, 144, 0.62);
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.62);
+}
+
 .balloon {
 	position: absolute;
 	bottom:	0;
-	cursor: url(crosshair-hot.png);
+	cursor: url(crosshair-hot-small.png) 64, 64, crosshair;
 }
 
 .inflatable {
-	width: 180px;
-	height: 200px;
+	width: 100px;
+	height: 120px;
 	background-color: yellow;
 	border-radius: 50%;
 }
@@ -25,5 +75,5 @@ body {
 	width: 1px;
 	height: 100px;
 	background-color: black;
-	margin-left: 90px;
+	margin: 0px auto;
 }
