@@ -35,7 +35,7 @@ $(function(){
 				e.preventDefault();
 				window.location.reload();
 			});
-		}, 8000);
+		}, 12000);
 
 		balloon.remove();
 	}
